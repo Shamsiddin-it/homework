@@ -101,3 +101,18 @@ def harmonic(a:int):
     print(sum)
 a=int(input())
 harmonic(a)
+
+# zadacha10
+def rev(a):
+    new=""
+    for i in a:
+        i=str(i)
+        if i.isupper():
+            b=i.lower()
+            new+=b
+        else:
+            b=i.upper()
+            new+=b
+    print(new[::-1])
+a=input()
+rev(a)
