@@ -81,3 +81,12 @@ def twolists(a):
         break
 a=[list(i) for i in input().split(",")]
 twolists(a)
+
+# zadacha8
+def new_word(a):
+    for i in range(len(a)):
+        print(a[1:])
+        break
+a=input()
+new_word(a)
+    
