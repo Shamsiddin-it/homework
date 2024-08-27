@@ -72,3 +72,12 @@ def split(a:int):
     print(new)
 a=int(input())
 split(a)
+
+
+# zadacha7
+def twolists(a):
+    for i in range(len(a)):
+        print(a[0]==a[1])
+        break
+a=[list(i) for i in input().split(",")]
+twolists(a)
