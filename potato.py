@@ -90,3 +90,14 @@ def new_word(a):
 a=input()
 new_word(a)
     
+
+# zadacha9
+def harmonic(a:int):
+    n=1
+    sum=0
+    while n<=a:
+        sum+=1/n
+        n+=1
+    print(sum)
+a=int(input())
+harmonic(a)
