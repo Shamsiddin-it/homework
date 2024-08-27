@@ -21,3 +21,16 @@ def sum_five(a):
     print(sum)
 x=input().split()
 sum_five(x)
+
+
+
+# zadacha3
+def sutter(a):
+    b=""
+    for i in range(len(a)):
+        b+=a[0]
+        b+=a[1]
+        break
+    print(f"{b}... {b}... {a}?")
+x=input()
+sutter(x)
