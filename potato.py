@@ -34,3 +34,14 @@ def sutter(a):
     print(f"{b}... {b}... {a}?")
 x=input()
 sutter(x)
+
+
+
+# zadacha4
+def discount(a):
+    for i in range(len(a)):
+        m=int(a[0])-int(a[1])*int(a[0])/100
+        break
+    print(m)
+a=input().split()
+discount(a)
