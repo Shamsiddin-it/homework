@@ -45,3 +45,21 @@ def discount(a):
     print(m)
 a=input().split()
 discount(a)
+
+
+# zadacha5
+def end_corona(a):
+    for i in range(len(a)):
+        m=int(a[2])
+        n=(int(a[0])-int(a[1]))
+        break
+    if m%n==0:
+        x=m//n
+    else:
+        x=m//n+1
+    print(x)
+a=input().split()
+end_corona(a)
+
+
+# zadacha6
