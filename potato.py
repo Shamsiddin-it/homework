@@ -63,3 +63,12 @@ end_corona(a)
 
 
 # zadacha6
+def split(a:int):
+    m=a//2
+    n=a-m
+    new=[]
+    new.append(m)
+    new.append(n)
+    print(new)
+a=int(input())
+split(a)
