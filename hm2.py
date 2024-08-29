@@ -28,6 +28,34 @@
 #     print("Game over") 
 #     print("the number was", a)   
 
+# 2
+# import random
+# x="1234567890"
+# a=random.randint(1,10)
+# i=0
+# list1=[]
+# while i<=a:
+#     n=random.choice(x)
+#     list1.append(n)
+#     i+=1
+# b=random.randint(1,10)
+# j=0
+# list2=[]
+# while j<=b:
+#     m=random.choice(x)
+#     list2.append(m)
+#     j+=1
+# print(*list1)
+# print(*list2)
+# if a!=b:
+#     print("False")
+# else:
+#     cnt=0
+#     for i in list1:
+#         if i not in list2:
+#             cnt+=1
+#     print(cnt==0)
+
 # 3
 # import random
 # a=int(input())
